@@ -28,5 +28,6 @@ How does the script work?
 * add some registry settings
 * use pnputil to install the driver for this device
 * use pnputil to remove the device
+  
 The driver-to-device assignment marks the driver for being loaded on boot.
 Now the Windows is ready for migration to a VirtIO based SCSI disk.
