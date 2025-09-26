@@ -1,9 +1,9 @@
 # Purpose of this script
-# * make Windows load the VirtIO SCSI driver on boot without reboot or external programs
+# * make Windows load the VirtIO SCSI pass-through driver on boot without reboot or external programs
 #
 # Prerequisites
 # * VirtIO SCSI driver (vioscsi) must be installed OR path to the INF-File must be given as argument to the script
-# * Windows 7/8 or Windows Server 2008
+# * Windows 7/8 or Windows Server 2008 or newer
 #
 # Remarks
 # * On Windows before Windows Server 2022 and Windows 10 2004 the software device created by the script will not be removed automatically, but this can be done via device manager. It can also be left there, no harm in that.
@@ -11,7 +11,7 @@
 # * This script was tested only 
 # ** on Windows Server 2025 Standard Edition (24H2)
 # ** on Windows Server 2022 Datacenter Edition (21H2)
-# ** with virtio drivers version .266
+# ** with virtio drivers version .266, .271, .285
 # * nearly all code in here was written by AI
 #
 # How to use
